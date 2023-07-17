@@ -1,0 +1,84 @@
+.add-liceu-form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-top: 10vh;
+  }
+  
+  .add-liceu-form-wrapper {
+    display: flex;
+    justify-content: center; 
+    max-width: 800px; 
+  }
+  
+  .add-liceu-form {
+    width: 50%; 
+    margin-right: 20px;
+  }
+  
+  .add-liceu-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-liceu-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .add-liceu-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+  }
+  
+  .add-liceu-form button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .add-liceu-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .licee-list {
+    width: 50%; 
+  }
+  
+  .licee-list h2 {
+    margin-bottom: 16px;
+  }
+  
+  .licee-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .licee-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .licee-list button {
+    padding: 4px 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .licee-list button:hover {
+    background-color: #e53935;
+  }
+  

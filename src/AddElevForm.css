@@ -1,0 +1,90 @@
+.add-elev-form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-top: 10vh;
+  }
+  
+  .add-elev-form-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+  }
+  
+  .add-elev-form {
+    width: 50%;
+    margin-right: 20px;
+  }
+  
+  .add-elev-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-elev-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .add-elev-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+  }
+  
+  .add-elev-form select {
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+  }
+  
+  .add-elev-form button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .add-elev-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .elevi-list {
+    width: 50%;
+  }
+  
+  .elevi-list h2 {
+    margin-bottom: 16px;
+  }
+  
+  .elevi-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .elevi-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .elevi-list button {
+    padding: 4px 8px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .elevi-list button:hover {
+    background-color: #e53935;
+  }
+  

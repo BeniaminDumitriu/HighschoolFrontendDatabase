@@ -1,0 +1,122 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #74b2f5;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+.form-navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.form-navigation button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.form-navigation button.active {
+  background-color: #28a745; 
+}
+
+.form-navigation button:hover {
+  background-color: #0056b3;
+}
+
+.add-form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.add-form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-form input[type="text"],
+.add-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-form button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.add-form button:hover {
+  background-color: #218838;
+}
+
+.list-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list h2 {
+  margin-bottom: 10px;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.list button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.list button:hover {
+  background-color: #c82333;
+}
